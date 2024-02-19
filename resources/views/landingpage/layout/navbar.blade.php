@@ -1,12 +1,14 @@
-<nav class="navbar bg-cyan-700">
-    <div class="container mx-auto justify-between">
+<nav class="navbar bg-sky-400">
+    <div class="container mx-auto justify-around">
         <div class="flex">
             <div class="flex-1">
-                <a class="text-xl font-bold font-logo">MyTopUp</a>
+                <div class="flex font-logo text-lg">
+                  <span class="bg-black text-white w-[3.4rem] text-end rounded-l-xl">Jawir</span><span class="bg-orange-500 text-black w-[3.4rem] rounded-r-xl">TopUp</span>
+                </div>
             </div>
         </div>
-        <div class="form-control justify-center items-center">
-            <input type="text" placeholder="Search" class="input input-bordered w-auto" />
+        <div class="flex justify-center items-center">
+            <input type="text" placeholder="Search" class="input input-bordered input-sm sm:w-48 md:w-64 lg:w-96"/>
         </div>
         <div class="flex justify-end">
             <div class="flex-none gap-2">

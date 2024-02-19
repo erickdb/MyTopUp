@@ -7,7 +7,7 @@
     <title>@yield('title')</title>
     @vite('resources/css/app.css')
 </head>
-<body>
+<body class="bg-sky-200">
     @include('landingpage.layout.navbar')
     @yield('content')
     @include('landingpage.layout.footer')
